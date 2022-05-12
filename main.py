@@ -59,17 +59,17 @@ def func():
         elif s.find('YouTube') != -1:
             speak("Opening Youtube")
             webbrowser.get('chrome').open("http://youtube.com")
-        elif s == s.find("spotify") != -1:
+        elif s.find("spotify") != -1:
             speak("Opening Spotify")
             webbrowser.get('chrome').open("http://spotify.com")
-        elif s == s.find("Facebook") != -1:
+        elif s.find("Facebook") != -1:
             speak("Opening Facebook")
             webbrowser.get('chrome').open("http://facebook.com")
         elif s.find("Twitter") != -1:
             speak("Opening Twitter")
             webbrowser.get('chrome').open("http://twitter.com")
         elif s.find("Instagram") != -1:
-            speak("Opening Spotify")
+            speak("Opening Instagram")
             webbrowser.get('chrome').open("http://instagram.com")
         else:
             print("Couldnt recognise what you said\n\n")
